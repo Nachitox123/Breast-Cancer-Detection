@@ -27,8 +27,10 @@ In order to improve our model we can do some transfer learning by freezing first
 
 # Results
 ![Metrics before fine tuning](./pictures/metrics01.png)
-![Metrics after fine tuning](./pictures/metrics02.png)
+Metrics before fine tuning.
 
+![Metrics after fine tuning](./pictures/metrics02.png)
+Metrics after fine tuning.
 
 # Visualising model details with MLflow
 By this point there's a folder called **mlruns** on the root directy where we executed this code, right there we could run the command *mlflow ui* which will allocate MLflow's interface on http://localhost:5000/. Now we should be able to take a look at our model parameters and metrics obtained during execution.
